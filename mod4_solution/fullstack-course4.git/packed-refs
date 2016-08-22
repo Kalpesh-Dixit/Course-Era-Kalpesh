@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled 
+b7d8246a672f050b70ad770d26fca563a3ca1473 refs/heads/enable-https
+1d5dd3aa3c6206fe2c50b748ce246dd8957e5828 refs/heads/gh-pages
+92847414118bca13a56bba04eb6c8e5dd2ee2fb1 refs/heads/jasonwr-lecture22-before-fix
+831c03e1658d36c4b86cc2b06d21ed08a93ea3a4 refs/heads/master
