@@ -1,13 +1,14 @@
-function showProperties(element){
-  document.getElementById('message').innerHTML = element.alt;
+function upDate(element){
+  document.getElementById('image').innerHTML = element.alt;
   var url =element.src;
   
- document.getElementById('message').style.backgroundImage = "url('"+url+ "')";
+ document.getElementById('image').style.backgroundImage = "url('"+url+ "')";
+ //console.log("In the function");
 }
 
-function clearproperties(xyz){
+function unDo(){
 
-//document.getElementById('message').innerHTML='Hover over an image';
-document.getElementById('message').style.backgroundImage = none;
-//document.getElementById('message').style.background-color: #8e68ff;
-//}
+		document.getElementById('image').style.backgroundImage = "";	
+		document.getElementById('image').innerHTML='Hover over an image';
+	}
+	
